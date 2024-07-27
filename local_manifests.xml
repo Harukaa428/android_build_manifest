@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <!-- Remotes -->
+    <remote name="gh"
+            fetch="https://github.com"
+            clone-depth="1" />
+
+ <!--Tree -->
+ <project path="device/xiaomi/vayu" name="Harukaa428/device_xiaomi_vayu" remote="gh" revision="14-derp" />
+ 
+ <!--Kernel -->
+ <project path="kernel/xiaomi/vayu" name="bagaskara815/kernel_xiaomi_vayu" remote="gh" revision="lineage-20" />
+ 
+ <!--Vendor -->
+ <project path="vendor/xiaomi/vayu" name="bagaskara815/vendor_xiaomi_vayu" remote="gh" revision="14-derp" />
+ <project path="vendor/xiaomi/miuicamera" name="crdroidandroid/proprietary_vendor_xiaomi_miuicamera" remote="gitlab" revision="14.0" />
+ 
+ <!--Extras -->
+ <project path="hardware/xiaomi" name="PixelOS-AOSP/hardware_xiaomi" remote="gh" revision="fourteen" />
+</manifest>
