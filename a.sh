@@ -18,7 +18,7 @@ git clone --depth=1 https://gitlab.com/crdroidandroid/proprietary_vendor_xiaomi_
 # Set up build environment
  export BUILD_USERNAME=Moonlxght0909 
  export BUILD_HOSTNAME=crave 
- source build/envsetup.sh && 
+ source build/envsetup.sh 
  
 # Build the ROM
 lunch aosp_vayu-ap2a-user && make installclean && mka bacon
