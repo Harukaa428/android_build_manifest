@@ -9,11 +9,10 @@ git clone https://github.com/rktdnt/p3 -b pos vendor/aosp/signing/keys
 
 # Tree
 rm -rf */xiaomi
-git clone --depth=1 https://github.com/Harukaa428/device_xiaomi_vayu -b 14-derp
-git clone --depth=1 https://github.com/bagaskara815/vendor_xiaomi_vayu -b 14-derp
-git clone --depth=1 https://github.com/bagaskara815/kernel_xiaomi_vayu -b lineage-20
+git clone --depth=1 https://github.com/PixelOS-Devices/device_xiaomi_vayu -b fourteen
+git clone --depth=1 https://github.com/PixelOS-Devices/vendor_xiaomi_vayu -b fourteen 
+git clone --depth=1 https://github.com/PixelOS-Devices/kernel_xiaomi_vayu -b fourteen
 git clone --depth=1 https://github.com/PixelOS-AOSP/hardware_xiaomi -b fourteen 
-git clone --depth=1 https://gitlab.com/crdroidandroid/proprietary_vendor_xiaomi_miuicamera -b 14.0
 
 # Set up build environment
  export BUILD_USERNAME=Moonlxght0909 
