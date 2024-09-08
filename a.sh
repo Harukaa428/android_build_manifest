@@ -4,9 +4,6 @@
 rm -rf vendor/aosp/signing/keys
 git clone https://github.com/rktdnt/p3 -b pos vendor/aosp/signing/keys
 
-#rm -rf vendor/derp/signing/keys
-#git clone https://github.com/rktdnt/p3 -b pos vendor/derp/signing/keys
-
 # Tree
 rm -rf */xiaomi
 git clone --depth=1 https://github.com/PixelOS-Devices/device_xiaomi_vayu -b fourteen
